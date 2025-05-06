@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f9b23f;
+    color: #333333;
+  }
+  
+  header {
+    background: #011203;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    
+
+
+  }
+  
+  section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style: square;
+    padding-left: 20px;
+  }
+  
+  form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  form button {
+    background: #020910;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+  }
+
+  /* 🔁 Make it mobile-friendly */
+@media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 24px;
+    }
+  
+    section {
+      margin: 10px 0;
+      padding: 15px;
+    }
+  
+    form input, form textarea {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    form button {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    ul {
+      padding-left: 15px;
+    }
+  }
+
+  /*Button Hover Effects*/
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+  /* para maging smooth*/
+  html {scroll-behavior: smooth;
+    
+  }
+  
+  /*Animate Projct Cards*/
+  .project {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .project.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .profile-img {
+    border-radius: 50%;
+    
+    
+  }
+
+ /* para toogle
+ 
+ :root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --header-bg: #f0f0f0;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  You can update other elements to use variables too 
+  header {
+    background-color: var(--header-bg);
+  }
+  
+  .dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --header-bg: #1e1e1e;
+  }
+  
+  #theme-toggle {
+    display: block;
+    margin: 2rem auto;
+  } */
+  
+
+  
+
+
+  
+  
+
+
+
+
+  
